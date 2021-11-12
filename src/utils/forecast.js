@@ -12,7 +12,7 @@ const forecast = (latitude, longitude, callback) => {
             callback('Unable to find location', undefined);
         }
         else{
-            callback(undefined, "Mintemp: " + body.forecast["2021-11-10"].mintemp +  " Maxtemp: " + body.forecast["2021-11-10"].maxtemp);
+            callback(undefined, "Mintemp: " + body.forecast["2021-11-11"].mintemp +  " Maxtemp: " + body.forecast["2021-11-11"].maxtemp);
         }
     })
 }
